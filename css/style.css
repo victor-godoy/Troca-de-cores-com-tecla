@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+p {
+  text-align: center;
+  margin: 30px auto;
+}
+
+.container {
+  background: #313d4c;
+  display: flex;
+  justify-content: center;
+}
+
+.div {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  margin: 20px;
+  background: red;
+  text-align: center;
+}
+
+.div > p {
+  text-align: center;
+  margin-top: 60px;
+  background: rgba(255, 255, 255, 0.536);
+}
+
+.vermelho {
+  background: rgba(255, 0, 0, 0.813);
+}
+.rosa {
+  background: rgba(255, 192, 203, 0.813);
+}
+.azul {
+  background: rgba(0, 0, 255, 0.813);
+}
+.amarelo {
+  background: rgba(255, 255, 0, 0.813);
+}
